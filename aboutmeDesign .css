@@ -1,0 +1,65 @@
+h1{
+    color: rgb(0, 0, 0);
+    font-family:'Bookman Old Style';
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(177, 177, 177);
+
+  }
+   h2{
+    color: white;
+    text-shadow: 3px 3px 5px rgb(80, 60, 60);
+    background-color:rgba(219, 173, 113, 0.836);
+    font-size: 35px;
+  }
+  p{
+     padding-top:30px;
+     color: black;
+     font-family:Tahoma;
+     padding-right:80px;
+     padding-left:80px;
+     padding-bottom:30px;
+     text-align: justify;
+     font-size: 15px;
+
+  }
+  body{
+     background-color:#f2efeb;
+     font-family:'Bookman Old Style';
+     font-size: 18px;
+  }
+  ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+ 
+ li {
+   float: right;
+   border-left: 1px solid #000000;
+   padding: 14px 16px;
+   font-size: 15px;
+   color:black;
+   display: block;
+   position: static;
+ }
+ .image-container {
+   float: left;
+   margin-right: 20px;
+}
+
+.image-container img {
+    max-width: 300%; /* Set the maximum width to 100% of its container */
+    max-height: 400px; /* Set the maximum height */
+}
+.image-container-child img {
+   max-width: 100%; /* Set the maximum width to 100% of its container */
+   max-height: 300px; /* Set the maximum height */
+   float:left;
+   margin: 20px;
+}
+li a:hover {
+   background-color: #bdbdbd72;
+   padding: 14px 16px;
+ }
+ 
