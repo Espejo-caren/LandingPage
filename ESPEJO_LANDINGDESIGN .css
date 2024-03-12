@@ -1,0 +1,90 @@
+body {
+  background-image: url("Contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  border-left: 1px solid #000000;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: black;
+  display: block;
+  position: static;
+}
+
+div.aboutme {
+  margin: 10px;
+  border: 5px solid #000000;
+  float: left;
+  width: 450px;
+  height: 450px;
+  position: relative;
+}
+
+div.aboutme:hover {
+  border: 1px solid #777;
+}
+
+div.aboutme img {
+  width: 450px;
+  height: 450px;
+}
+
+div.desc {
+  padding: 30px;
+}
+
+.homepage {
+  background-image: url("homepage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+li a:hover {
+  background-color: #ffffff72;
+  padding: 14px 16px;
+}
+
+div.gallery {
+  margin-left: 150px;
+  float: left;
+  width: 500px;
+  height: 350px;
+  text-align: center;
+  position: relative;
+}
+
+div.gallery img {
+  width: 1250px;
+  height: 1250px;
+}
+
+.text-container {
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 650px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  color: black;
+  font-family: Tahoma;
+}
+
+h2 {
+  color: rgb(219, 173, 113);
+  font-family:sans-serif;
+  font-size: 40px;
+}
