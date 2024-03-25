@@ -1,0 +1,37 @@
+body{
+    background-color: #f2efeb;
+  }
+
+  .text-container h1{
+    font-family: "Sansita", sans-serif;
+    font-size: 50px;
+    text-align: left;
+    text-shadow: 2px 2px 5px rgb(157, 157, 157);
+    color:rgb(177, 148, 112);
+    margin-left: 300px;
+  }
+  img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 0px;
+  }
+
+video{
+    margin-top: 0px;
+}
+
+  .container{
+    padding:20px;
+    background-color: #43766C ;
+    float:right;
+    margin-right: 20px;
+    position: relative;
+    margin-top: 10px;
+  }
+.text-container{
+    width: 900px;
+    margin-right: 10px;
+    float:left;
+    text-align: justify;
+    margin-top:200px;
+}
