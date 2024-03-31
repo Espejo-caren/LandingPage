@@ -1,23 +1,32 @@
    h4.solid{
-       color: rgb(28, 27, 27);
-       font-family:Arial, Helvetica, sans-serif;
+       color: rgb(43, 77, 70);
+       font-family:"Fjalla One", sans-serif;
        text-align:left;
        padding-top: 5px;
        padding-bottom: 5px;
+       font-size: 25px;
        
      }
      p.resume{
        padding-top: 5px;
        padding-bottom: 5px;
-       color: rgb(28, 27, 27);
-       font-family:Arial, Helvetica, sans-serif;
+       color: rgb(43, 77, 70);
+       font-family: "Khand", sans-serif;
        text-align: left;
-       font-weight: bold;      
-       
+       font-weight: bold;
+       font-size: 25px;         
+     }
+     .skills li{
+      font-family:  "Fjalla One", sans-serif;
+      font-size: 18px;
+     }
+     .disc li{
+      font-family: "Khand", sans-serif;
      }
      p.about{
-      font-family:Tahoma;
+      font-family:"Khand", sans-serif;
       color:rgb(0, 0, 0);
+      font-size: 18px;
      }
      .contact{
       color: rgb(0, 0, 0);
@@ -31,7 +40,7 @@
       font-size: 15px;
      }
      body{
-        background-color:#f2efeb;
+        background-color:#F2F2F4;
         font-family:'Bookman Old Style';
         font-size: 18px;
         text-align: left;
@@ -47,6 +56,9 @@
      li{
       font-family: Tahoma;
      }
+     li a{
+      text-decoration: none;
+    }
      .sidenav {
       height: 100%;
       width: 300px;
@@ -54,15 +66,35 @@
       z-index: 1;
       top: 0;
       left: 0;
-      background-color:rgba(219, 173, 113, 0.836);
+      background-color:rgb(177, 148, 112);
       overflow-x: hidden;
       padding-top: 20px;
       text-align: center;
       font-size: 18px;
-      font-family:tahoma;
+      font-family:"Fjalla One", sans-serif;
       line-height: 5px;
       color: #ffffff;
       font-weight: bold;
+    }
+    .sidenav h1{
+      font-family:Tahoma;
+      font-size: 20px;
+      color:rgb(255, 255, 255);
+      padding-bottom: 7px;
+      font-weight: bold;
+    }
+    .sidenav p{
+      font-family: "PT Sans Narrow", sans-serif;
+      font-size: 20px;
+      color:rgb(255, 255, 255);
+      font-weight: lighter;
+    }
+    .contact p{
+      font-family: "Jost", sans-serif;
+      font-size: 15px;
+      color:rgb(255, 255, 255);
+      line-height: 80%;
+      font-weight: lighter;
     }
     .main {
       margin-left: 300px; 
@@ -90,10 +122,39 @@
     }
     li a:hover {
       background-color: #bdbdbd72;
-      padding: 14px 16px;
     }
   .sidenav img{
     border-radius: 5px;
     border: 3px solid #000000;
   }
-    
+
+.material-symbols-rounded{
+    float:left;
+    margin-left: 30px;
+    margin-right: 0px;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.contact p{
+  display: flex;
+  margin-left: 5px;
+  font-size: 16px;
+  color: black;
+}
+
+.material-symbols-rounded {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 50
+}
+
+.contact{
+  margin-top: 340px;
+}
+
+
+
+
