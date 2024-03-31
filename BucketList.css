@@ -1,0 +1,109 @@
+.Header h1{
+    font-family: "Sansita", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(157, 157, 157);
+    color:rgb(177, 148, 112);
+  }
+  .Header img{
+    margin-left: 400px;
+    width:700px;
+    height:600px;
+  }
+   h2{
+    text-align: center;
+    margin-top: 250px;
+    padding:20px;
+    background-color: rgb(218, 189, 153);
+    width: 400px;
+    margin-left: 550px;
+    border-radius: 15px;
+    border:3px solid #57332c;
+    font-family: "Source Code Pro", monospace;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  p{
+     padding-top:30px;
+     color: black;
+     font-family: "Khand", sans-serif;
+     padding-right:30px;
+     padding-left:80px;
+     padding-bottom:30px;
+     text-align: justify;
+     font-size: 18px;
+
+  }
+  body{
+     background-color:#F2F2F4;
+     font-family:'Bookman Old Style';
+     font-size: 18px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  li {
+    float: right;
+    border-left: 1px solid #000000;
+    padding: 14px 16px;
+    font-size: 15px;
+    color:black;
+    display: block;
+    position: static;
+    text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: #bdbdbd72;
+    }
+
+li a{
+  text-decoration: none;
+  color:black;
+  position: static;
+ }
+ 
+ 
+.content {
+  padding: 90px;
+  background-color: #F9A8A7;
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+
+.image-container {
+  display: flex; /* Use flexbox to arrange items horizontally */
+  align-items: center; /* Align items vertically */
+  margin-bottom: 30px;
+}
+
+.image-container img {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin-right: 20px; /* Add some spacing between image and text */
+  box-shadow: 5px 5px 5px rgba(2, 2, 2, 0.482);
+}
+
+.reason p {
+  font-family: "Khand", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.bucket p {
+  margin-top: 5px;
+  margin-bottom: 0; /* Remove bottom margin */
+  font-size: 18px;
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+
+}
