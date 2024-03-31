@@ -22,16 +22,43 @@ video{
 
   .container{
     padding:20px;
-    background-color: #43766C ;
+    background-color: #f9a8a79d;
     float:right;
     margin-right: 20px;
     position: relative;
     margin-top: 10px;
+    border-radius: 10px;
   }
 .text-container{
     width: 900px;
     margin-right: 10px;
     float:left;
     text-align: justify;
-    margin-top:200px;
+    margin-top:0px;
+}
+
+.text-container p{
+  font-family: "Khand", sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.previous {
+  background-color: rgb(218, 189, 153);
+  color: black;
+  padding: 20px;
+  border-radius: 3px;
+  margin-left: 30px;
+  font-family: "Francois One", sans-serif;
+}
+
+.navi a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.navi{
+  display: inline-block;
+  margin-top: 300px;
 }
